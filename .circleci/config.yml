@@ -10,10 +10,10 @@ commands:
       - run:
           name: "Maven Jdk8 Tests"
           command: ./mvnw -Pcicd verify
-      - run:
-          name: "Coveralls"
-          command: ./mvnw -Pcicd,qa_jacoco -DCOVERALLS_REPO_TOKEN=${COVERALLS_REPO_TOKEN} verify jacoco:report coveralls:report
-          when: on_success
+      #- run:
+      #    name: "Coveralls"
+      #    command: ./mvnw -Pcicd,qa_jacoco -DCOVERALLS_REPO_TOKEN=${COVERALLS_REPO_TOKEN} verify jacoco:report coveralls:report
+      #    when: on_success
 
   cache_restore:
     parameters:
