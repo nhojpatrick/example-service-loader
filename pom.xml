@@ -364,6 +364,21 @@
 				<sort.skip>true</sort.skip>
 			</properties>
 		</profile>
+		<profile>
+			<id>qa_jacoco</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+					</plugin>
+				</plugins>
+			</build>
+			<properties>
+				<joda.beans.skip>true</joda.beans.skip>
+				<sort.skip>true</sort.skip>
+			</properties>
+		</profile>
 	</profiles>
 	<!--modules / -->
 	<modules>
