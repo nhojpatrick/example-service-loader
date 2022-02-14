@@ -57,7 +57,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.9.0</version>
+					<version>${plugins.maven.maven-compiler-plugin}</version>
 					<configuration>
 						<compilerArgs>
 							<arg>-parameters</arg>
@@ -464,6 +464,8 @@
 		<downloadSources>true</downloadSources>
 		<downloadJavadocs>true</downloadJavadocs>
 		<generateBackupPoms>false</generateBackupPoms>
+		<!-- plugins -->
+		<plugins.maven.maven-compiler-plugin>3.9.0</plugins.maven.maven-compiler-plugin>
 		<!-- dependencies -->
 		<version.org.hamcrest>2.2</version.org.hamcrest>
 		<version.org.junit.jupiter>5.8.2</version.org.junit.jupiter>
