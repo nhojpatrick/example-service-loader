@@ -64,6 +64,9 @@
 							<!--<arg>-verbose</arg>-->
 							<arg>-Xlint:unchecked</arg>
 						</compilerArgs>
+						<!-- FIX for maven-compiler-plugin v3.12.0 START -->
+						<useIncrementalCompilation>false</useIncrementalCompilation>
+						<!-- FIX for maven-compiler-plugin v3.12.0 END -->
 					</configuration>
 				</plugin>
 				<plugin>
