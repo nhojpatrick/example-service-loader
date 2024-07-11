@@ -471,8 +471,8 @@
 		<plugins.maven-compiler-plugin>3.13.0</plugins.maven-compiler-plugin>
 		<!-- dependencies -->
 		<version.org.hamcrest>2.2</version.org.hamcrest>
-		<version.org.junit.jupiter>5.10.2</version.org.junit.jupiter>
-		<version.org.junit.vintage>5.10.2</version.org.junit.vintage>
+		<version.org.junit.jupiter>5.10.3</version.org.junit.jupiter>
+		<version.org.junit.vintage>5.10.3</version.org.junit.vintage>
 		<!-- -->
 		<!--<version.latest.org.slf4j>1.7.25</version.latest.org.slf4j>-->
 		<!-- -->
