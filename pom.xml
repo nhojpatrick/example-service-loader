@@ -470,7 +470,7 @@
 		<!-- plugins -->
 		<plugins.maven-compiler-plugin>3.13.0</plugins.maven-compiler-plugin>
 		<!-- dependencies -->
-		<version.org.hamcrest>2.2</version.org.hamcrest>
+		<version.org.hamcrest>3.0</version.org.hamcrest>
 		<version.org.junit.jupiter>5.11.0</version.org.junit.jupiter>
 		<version.org.junit.vintage>5.11.0</version.org.junit.vintage>
 		<!-- -->
