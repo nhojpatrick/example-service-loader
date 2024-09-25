@@ -82,7 +82,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>3.4.0</version>
+					<version>${plugins.maven-failsafe-plugin}</version>
 					<configuration>
 						<includes>
 							<include>**/*IT.java</include>
@@ -469,6 +469,7 @@
 		<generateBackupPoms>false</generateBackupPoms>
 		<!-- plugins -->
 		<plugins.maven-compiler-plugin>3.13.0</plugins.maven-compiler-plugin>
+		<plugins.maven-failsafe-plugin>3.4.0</plugins.maven-failsafe-plugin>
 		<!-- dependencies -->
 		<version.org.hamcrest>3.0</version.org.hamcrest>
 		<version.org.junit.jupiter>5.11.1</version.org.junit.jupiter>
