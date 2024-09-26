@@ -470,7 +470,7 @@
 		<!-- plugins -->
 		<plugins.maven-compiler-plugin>3.13.0</plugins.maven-compiler-plugin>
 		<plugins.maven-failsafe-plugin>3.5.0</plugins.maven-failsafe-plugin>
-		<plugins.maven-surefire-plugin>3.4.0</plugins.maven-surefire-plugin>
+		<plugins.maven-surefire-plugin>3.5.0</plugins.maven-surefire-plugin>
 		<!-- dependencies -->
 		<version.org.hamcrest>3.0</version.org.hamcrest>
 		<version.org.junit.jupiter>5.11.1</version.org.junit.jupiter>
